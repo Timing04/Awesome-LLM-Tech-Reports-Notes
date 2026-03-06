@@ -1,5 +1,5 @@
 ---
-title: DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+title: DeepSeek-R1： Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
 type: model_report
 family: deepseek
 status: ai_draft

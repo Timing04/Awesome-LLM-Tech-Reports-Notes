@@ -1,10 +1,10 @@
 version: 1
 models:
   - slug: llama2
-    title: Llama 2: Open Foundation and Fine-Tuned Chat Models
+    title: "Llama 2: Open Foundation and Fine-Tuned Chat Models"
     family: llama
     type: technical_report
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: models/llama/llama2.md
     source_status: verified
@@ -60,7 +60,7 @@ models:
     title: Qwen2.5 Technical Report
     family: qwen
     type: technical_report
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: models/qwen/qwen2_5.md
     source_status: to_verify
@@ -88,7 +88,7 @@ models:
     title: Qwen2.5-VL
     family: qwen
     type: model_report
-    status: seeded
+    status: ai_draft
     priority: P1
     note_path: models/qwen/qwen2_5_vl.md
     source_status: to_verify
@@ -102,7 +102,7 @@ models:
     title: Qwen2-Audio
     family: qwen
     type: model_report
-    status: seeded
+    status: ai_draft
     priority: P1
     note_path: models/qwen/qwen2_audio.md
     source_status: to_verify
@@ -144,7 +144,7 @@ models:
     title: DeepSeek-V2
     family: deepseek
     type: technical_report
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: models/deepseek/deepseek_v2.md
     source_status: to_verify
@@ -200,7 +200,7 @@ models:
     title: DeepSeekMath
     family: deepseek
     type: technical_report
-    status: seeded
+    status: ai_draft
     priority: P1
     note_path: models/deepseek/deepseek_math.md
     source_status: verified
@@ -214,7 +214,7 @@ models:
     title: Mistral 7B
     family: mistral
     type: technical_report
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: models/mistral/mistral_7b.md
     source_status: verified
@@ -228,7 +228,7 @@ models:
     title: Mixtral of Experts
     family: mistral
     type: technical_report
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: models/mistral/mixtral_8x7b.md
     source_status: verified
@@ -321,3 +321,101 @@ models:
       ref: ""
       official: ""
     topics: [agentic, tool_use, open_weights]
+
+  - slug: baichuan2
+    title: Baichuan2
+    family: baichuan
+    type: technical_report
+    status: seeded
+    priority: P2
+    note_path: models/baichuan/baichuan2.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [chinese_llm, bilingual, open_weights]
+
+  - slug: chatglm3
+    title: ChatGLM3
+    family: chatglm
+    type: technical_report
+    status: ai_draft
+    priority: P2
+    note_path: models/chatglm/chatglm3.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [chinese_llm, tool_use, instruction_following]
+
+  - slug: glm4
+    title: GLM-4
+    family: zhipu
+    type: technical_report
+    status: ai_draft
+    priority: P1
+    note_path: models/zhipu/glm4.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [chinese_llm, tool_use, reasoning]
+
+  - slug: kimi
+    title: Kimi
+    family: moonshot
+    type: model_report
+    status: ai_draft
+    priority: P1
+    note_path: models/moonshot/kimi.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [long_context, chinese_llm, assistant]
+
+  - slug: minimax_01
+    title: MiniMax-01
+    family: minimax
+    type: model_report
+    status: ai_draft
+    priority: P1
+    note_path: models/minimax/minimax_01.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [reasoning, multimodal, chinese_llm]
+
+  - slug: step_2
+    title: Step-2
+    family: stepfun
+    type: model_report
+    status: ai_draft
+    priority: P1
+    note_path: models/stepfun/step_2.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [multimodal, reasoning, chinese_llm]
+
+  - slug: minicpm_v_2_6
+    title: MiniCPM-V 2.6
+    family: modelbest
+    type: model_report
+    status: ai_draft
+    priority: P1
+    note_path: models/modelbest/minicpm_v_2_6.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [multimodal, on_device, efficiency]

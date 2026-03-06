@@ -209,7 +209,7 @@ Pretraining -> SFT -> DPO -> 可选在线RL / 规则奖励优化
 
 ## 延伸阅读
 
-- [InstructGPT / RLHF](instructgpt.md)
+- InstructGPT / RLHF（条目待补充）
 - [PPO](ppo.md)
 - [GRPO](grpo.md)
 - [Qwen2 Technical Report](../../models/qwen/qwen2.md)

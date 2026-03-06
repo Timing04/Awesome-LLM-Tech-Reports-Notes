@@ -19,7 +19,7 @@
 
 ### Llama
 
-- `P0` `seeded` `models/llama/llama2.md` Llama 2
+- `P0` `ai_draft` `models/llama/llama2.md` Llama 2
 - `P0` `ai_draft` `models/llama/llama3.md` Llama 3
 - `P1` `seeded` `models/llama/llama3_1.md` Llama 3.1
 
@@ -27,25 +27,25 @@
 
 - `P0` `seeded` `models/qwen/qwen1_5.md` Qwen1.5
 - `P0` `ai_draft` `models/qwen/qwen2.md` Qwen2
-- `P0` `seeded` `models/qwen/qwen2_5.md` Qwen2.5
+- `P0` `ai_draft` `models/qwen/qwen2_5.md` Qwen2.5
 - `P1` `seeded` `models/qwen/qwen2_5_coder.md` Qwen2.5-Coder
-- `P1` `seeded` `models/qwen/qwen2_5_vl.md` Qwen2.5-VL
-- `P1` `seeded` `models/qwen/qwen2_audio.md` Qwen2-Audio
+- `P1` `ai_draft` `models/qwen/qwen2_5_vl.md` Qwen2.5-VL
+- `P1` `ai_draft` `models/qwen/qwen2_audio.md` Qwen2-Audio
 - `P1` `seeded` `models/qwen/qwen3.md` Qwen3
 - `P1` `seeded` `models/qwen/qwen3_embedding.md` Qwen3-Embedding
 
 ### DeepSeek
 
-- `P0` `seeded` `models/deepseek/deepseek_v2.md` DeepSeek-V2
+- `P0` `ai_draft` `models/deepseek/deepseek_v2.md` DeepSeek-V2
 - `P0` `ai_draft` `models/deepseek/deepseek_v3.md` DeepSeek-V3
 - `P0` `ai_draft` `models/deepseek/deepseek_r1.md` DeepSeek-R1
 - `P1` `seeded` `models/deepseek/deepseek_coder.md` DeepSeek-Coder
-- `P1` `seeded` `models/deepseek/deepseek_math.md` DeepSeekMath
+- `P1` `ai_draft` `models/deepseek/deepseek_math.md` DeepSeekMath
 
 ### Mistral
 
-- `P0` `seeded` `models/mistral/mistral_7b.md` Mistral 7B
-- `P0` `seeded` `models/mistral/mixtral_8x7b.md` Mixtral 8x7B
+- `P0` `ai_draft` `models/mistral/mistral_7b.md` Mistral 7B
+- `P0` `ai_draft` `models/mistral/mixtral_8x7b.md` Mixtral 8x7B
 - `P1` `seeded` `models/mistral/mixtral_8x22b.md` Mixtral 8x22B
 
 ### Gemma
@@ -59,12 +59,22 @@
 - `P2` `seeded` `models/yi/yi_1_5.md` Yi-1.5
 - `P2` `seeded` `models/internlm/internlm2_5.md` InternLM2.5
 
+### 扩展候选（主流开源模型）
+
+- `P2` `seeded` `models/baichuan/baichuan2.md` Baichuan2
+- `P2` `ai_draft` `models/chatglm/chatglm3.md` ChatGLM3
+- `P1` `ai_draft` `models/zhipu/glm4.md` GLM-4
+- `P1` `ai_draft` `models/moonshot/kimi.md` Kimi
+- `P1` `ai_draft` `models/minimax/minimax_01.md` MiniMax-01
+- `P1` `ai_draft` `models/stepfun/step_2.md` Step-2
+- `P1` `ai_draft` `models/modelbest/minicpm_v_2_6.md` MiniCPM-V 2.6
+
 ## 方法论文计划
 
 ### Alignment / Preference Optimization
 
-- `P0` `seeded` `papers/alignment/instructgpt.md` InstructGPT / RLHF
-- `P0` `seeded` `papers/alignment/ppo.md` PPO
+- `P0` `ai_draft` `papers/alignment/instructgpt.md` InstructGPT / RLHF
+- `P0` `ai_draft` `papers/alignment/ppo.md` PPO
 - `P0` `ai_draft` `papers/alignment/dpo.md` DPO
 - `P1` `seeded` `papers/alignment/ipo.md` IPO
 - `P1` `seeded` `papers/alignment/orpo.md` ORPO
@@ -74,27 +84,27 @@
 
 ### Architecture
 
-- `P0` `seeded` `papers/architecture/transformer.md` Attention Is All You Need
-- `P0` `seeded` `papers/architecture/switch_transformer.md` Switch Transformer
-- `P0` `seeded` `papers/architecture/roformer.md` RoFormer / RoPE
+- `P0` `ai_draft` `papers/architecture/transformer.md` Attention Is All You Need
+- `P0` `ai_draft` `papers/architecture/switch_transformer.md` Switch Transformer
+- `P0` `ai_draft` `papers/architecture/roformer.md` RoFormer / RoPE
 - `P0` `ai_draft` `papers/architecture/flashattention.md` FlashAttention
-- `P1` `seeded` `papers/architecture/gqa.md` Grouped-Query Attention
+- `P1` `ai_draft` `papers/architecture/gqa.md` Grouped-Query Attention
 - `P1` `seeded` `papers/architecture/mla.md` Multi-head Latent Attention
 - `P1` `seeded` `papers/architecture/multi_token_prediction.md` Multi-Token Prediction
 
 ### Data Engineering
 
-- `P0` `seeded` `papers/data/self_instruct.md` Self-Instruct
+- `P0` `ai_draft` `papers/data/self_instruct.md` Self-Instruct
 - `P1` `seeded` `papers/data/orca.md` Orca
 - `P1` `seeded` `papers/data/textbooks_are_all_you_need.md` Textbooks Are All You Need
 - `P1` `seeded` `papers/data/synthetic_data.md` Synthetic Data Survey / Key References
 
 ### Long Context
 
-- `P0` `seeded` `papers/long_context/alibi.md` ALiBi
-- `P0` `seeded` `papers/long_context/position_interpolation.md` Position Interpolation
+- `P0` `ai_draft` `papers/long_context/alibi.md` ALiBi
+- `P0` `ai_draft` `papers/long_context/position_interpolation.md` Position Interpolation
 - `P0` `seeded` `papers/long_context/yarn.md` YaRN
-- `P0` `seeded` `papers/long_context/ring_attention.md` Ring Attention
+- `P0` `ai_draft` `papers/long_context/ring_attention.md` Ring Attention
 
 ### Evaluation
 
@@ -105,13 +115,13 @@
 
 ## 横向专题计划
 
-- `P0` `seeded` `topics/moe.md` MoE
-- `P0` `seeded` `topics/post_training.md` Post-training
-- `P0` `seeded` `topics/long_context.md` Long Context
-- `P0` `seeded` `topics/reasoning_rl.md` Reasoning RL
-- `P1` `seeded` `topics/synthetic_data.md` Synthetic Data
-- `P1` `seeded` `topics/multimodal.md` Multimodal LLM
-- `P1` `seeded` `topics/evaluation.md` Evaluation and Benchmark Reading
+- `P0` `ai_draft` `topics/moe.md` MoE
+- `P0` `ai_draft` `topics/post_training.md` Post-training
+- `P0` `ai_draft` `topics/long_context.md` Long Context
+- `P0` `ai_draft` `topics/reasoning_rl.md` Reasoning RL
+- `P1` `ai_draft` `topics/synthetic_data.md` Synthetic Data
+- `P1` `ai_draft` `topics/multimodal.md` Multimodal LLM
+- `P1` `ai_draft` `topics/evaluation.md` Evaluation and Benchmark Reading
 
 ## 第一批落地建议
 

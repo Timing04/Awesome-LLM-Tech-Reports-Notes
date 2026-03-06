@@ -3,7 +3,7 @@ papers:
   - slug: instructgpt
     title: Training language models to follow instructions with human feedback
     category: alignment
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/alignment/instructgpt.md
     source_status: verified
@@ -16,7 +16,7 @@ papers:
   - slug: ppo
     title: Proximal Policy Optimization Algorithms
     category: alignment
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/alignment/ppo.md
     source_status: verified
@@ -107,7 +107,7 @@ papers:
   - slug: transformer
     title: Attention Is All You Need
     category: architecture
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/architecture/transformer.md
     source_status: verified
@@ -120,7 +120,7 @@ papers:
   - slug: switch_transformer
     title: Switch Transformers
     category: architecture
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/architecture/switch_transformer.md
     source_status: verified
@@ -133,7 +133,7 @@ papers:
   - slug: roformer
     title: RoFormer
     category: architecture
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/architecture/roformer.md
     source_status: verified
@@ -159,7 +159,7 @@ papers:
   - slug: gqa
     title: GQA
     category: architecture
-    status: seeded
+    status: ai_draft
     priority: P1
     note_path: papers/architecture/gqa.md
     source_status: verified
@@ -198,7 +198,7 @@ papers:
   - slug: self_instruct
     title: Self-Instruct
     category: data
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/data/self_instruct.md
     source_status: verified
@@ -250,7 +250,7 @@ papers:
   - slug: alibi
     title: Train Short, Test Long with ALiBi
     category: long_context
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/long_context/alibi.md
     source_status: verified
@@ -263,7 +263,7 @@ papers:
   - slug: position_interpolation
     title: Extending Context Window via Position Interpolation
     category: long_context
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/long_context/position_interpolation.md
     source_status: verified
@@ -289,7 +289,7 @@ papers:
   - slug: ring_attention
     title: Ring Attention
     category: long_context
-    status: seeded
+    status: ai_draft
     priority: P0
     note_path: papers/long_context/ring_attention.md
     source_status: to_verify
