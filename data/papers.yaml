@@ -1,0 +1,352 @@
+version: 1
+papers:
+  - slug: instructgpt
+    title: Training language models to follow instructions with human feedback
+    category: alignment
+    status: seeded
+    priority: P0
+    note_path: papers/alignment/instructgpt.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2203.02155"
+      official: ""
+    topics: [rlhf, preference_data, sft]
+
+  - slug: ppo
+    title: Proximal Policy Optimization Algorithms
+    category: alignment
+    status: seeded
+    priority: P0
+    note_path: papers/alignment/ppo.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "1707.06347"
+      official: ""
+    topics: [reinforcement_learning, policy_optimization, on_policy]
+
+  - slug: dpo
+    title: Direct Preference Optimization
+    category: alignment
+    status: ai_draft
+    priority: P0
+    note_path: papers/alignment/dpo.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2305.18290"
+      official: ""
+    topics: [preference_optimization, offline_alignment, simplicity]
+
+  - slug: ipo
+    title: Identity Preference Optimization
+    category: alignment
+    status: seeded
+    priority: P1
+    note_path: papers/alignment/ipo.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [preference_optimization, alignment]
+
+  - slug: orpo
+    title: ORPO
+    category: alignment
+    status: seeded
+    priority: P1
+    note_path: papers/alignment/orpo.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [preference_optimization, odds_ratio, instruction_tuning]
+
+  - slug: simpo
+    title: SimPO
+    category: alignment
+    status: seeded
+    priority: P1
+    note_path: papers/alignment/simpo.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [preference_optimization, reference_free, scaling]
+
+  - slug: grpo
+    title: Group Relative Policy Optimization
+    category: alignment
+    status: ai_draft
+    priority: P0
+    note_path: papers/alignment/grpo.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2402.03300"
+      official: ""
+    topics: [reasoning_rl, verifiable_rewards, group_baseline]
+
+  - slug: gspo
+    title: GSPO
+    category: alignment
+    status: seeded
+    priority: P1
+    note_path: papers/alignment/gspo.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [reasoning_rl, sequence_optimization, policy_search]
+
+  - slug: transformer
+    title: Attention Is All You Need
+    category: architecture
+    status: seeded
+    priority: P0
+    note_path: papers/architecture/transformer.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "1706.03762"
+      official: ""
+    topics: [transformer, attention, sequence_modeling]
+
+  - slug: switch_transformer
+    title: Switch Transformers
+    category: architecture
+    status: seeded
+    priority: P0
+    note_path: papers/architecture/switch_transformer.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2101.03961"
+      official: ""
+    topics: [moe, routing, scaling]
+
+  - slug: roformer
+    title: RoFormer
+    category: architecture
+    status: seeded
+    priority: P0
+    note_path: papers/architecture/roformer.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2104.09864"
+      official: ""
+    topics: [rope, positional_encoding, long_context]
+
+  - slug: flashattention
+    title: FlashAttention
+    category: architecture
+    status: ai_draft
+    priority: P0
+    note_path: papers/architecture/flashattention.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2205.14135"
+      official: ""
+    topics: [attention_kernel, memory_efficiency, systems]
+
+  - slug: gqa
+    title: GQA
+    category: architecture
+    status: seeded
+    priority: P1
+    note_path: papers/architecture/gqa.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2305.13245"
+      official: ""
+    topics: [attention, grouped_query_attention, inference_efficiency]
+
+  - slug: mla
+    title: Multi-head Latent Attention
+    category: architecture
+    status: seeded
+    priority: P1
+    note_path: papers/architecture/mla.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [attention, latent_compression, inference_efficiency]
+
+  - slug: multi_token_prediction
+    title: Multi-Token Prediction
+    category: architecture
+    status: seeded
+    priority: P1
+    note_path: papers/architecture/multi_token_prediction.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [prediction_head, training_objective, efficiency]
+
+  - slug: self_instruct
+    title: Self-Instruct
+    category: data
+    status: seeded
+    priority: P0
+    note_path: papers/data/self_instruct.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2212.10560"
+      official: ""
+    topics: [instruction_data, synthetic_data, bootstrapping]
+
+  - slug: orca
+    title: Orca
+    category: data
+    status: seeded
+    priority: P1
+    note_path: papers/data/orca.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2306.02707"
+      official: ""
+    topics: [explanations, teacher_student, synthetic_data]
+
+  - slug: textbooks_are_all_you_need
+    title: Textbooks Are All You Need
+    category: data
+    status: seeded
+    priority: P1
+    note_path: papers/data/textbooks_are_all_you_need.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [textbook_quality_data, synthetic_data, code]
+
+  - slug: synthetic_data
+    title: Synthetic Data for LLMs
+    category: data
+    status: seeded
+    priority: P1
+    note_path: papers/data/synthetic_data.md
+    source_status: to_verify
+    source:
+      kind: survey
+      ref: ""
+      official: ""
+    topics: [survey, synthetic_data, data_pipeline]
+
+  - slug: alibi
+    title: Train Short, Test Long with ALiBi
+    category: long_context
+    status: seeded
+    priority: P0
+    note_path: papers/long_context/alibi.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2108.12409"
+      official: ""
+    topics: [long_context, positional_bias, extrapolation]
+
+  - slug: position_interpolation
+    title: Extending Context Window via Position Interpolation
+    category: long_context
+    status: seeded
+    priority: P0
+    note_path: papers/long_context/position_interpolation.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2306.15595"
+      official: ""
+    topics: [rope_scaling, long_context, interpolation]
+
+  - slug: yarn
+    title: YaRN
+    category: long_context
+    status: seeded
+    priority: P0
+    note_path: papers/long_context/yarn.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [rope_scaling, long_context, finetuning]
+
+  - slug: ring_attention
+    title: Ring Attention
+    category: long_context
+    status: seeded
+    priority: P0
+    note_path: papers/long_context/ring_attention.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [distributed_attention, long_context, systems]
+
+  - slug: mmlu
+    title: Measuring Massive Multitask Language Understanding
+    category: evaluation
+    status: seeded
+    priority: P1
+    note_path: papers/evaluation/mmlu.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2009.03300"
+      official: ""
+    topics: [evaluation, knowledge, benchmark]
+
+  - slug: gpqa
+    title: GPQA
+    category: evaluation
+    status: seeded
+    priority: P1
+    note_path: papers/evaluation/gpqa.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2311.12022"
+      official: ""
+    topics: [evaluation, science_reasoning, benchmark]
+
+  - slug: mt_bench
+    title: MT-Bench
+    category: evaluation
+    status: seeded
+    priority: P1
+    note_path: papers/evaluation/mt_bench.md
+    source_status: to_verify
+    source:
+      kind: repo
+      ref: ""
+      official: ""
+    topics: [evaluation, chat_quality, judge_models]
+
+  - slug: swe_bench
+    title: SWE-bench
+    category: evaluation
+    status: seeded
+    priority: P1
+    note_path: papers/evaluation/swe_bench.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [evaluation, software_engineering, agentic]

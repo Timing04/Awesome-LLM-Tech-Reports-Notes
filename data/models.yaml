@@ -1,0 +1,323 @@
+version: 1
+models:
+  - slug: llama2
+    title: Llama 2: Open Foundation and Fine-Tuned Chat Models
+    family: llama
+    type: technical_report
+    status: seeded
+    priority: P0
+    note_path: models/llama/llama2.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2307.09288"
+      official: ""
+    topics: [open_weights, chat_alignment, scaling]
+
+  - slug: llama3
+    title: The Llama 3 Herd of Models
+    family: llama
+    type: technical_report
+    status: ai_draft
+    priority: P0
+    note_path: models/llama/llama3.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2407.21783"
+      official: ""
+    topics: [pretraining, post_training, multilingual]
+
+  - slug: qwen1_5
+    title: Qwen1.5 Technical Report
+    family: qwen
+    type: technical_report
+    status: seeded
+    priority: P0
+    note_path: models/qwen/qwen1_5.md
+    source_status: to_verify
+    source:
+      kind: arxiv
+      ref: ""
+      official: ""
+    topics: [dense_transformer, multilingual, chat]
+
+  - slug: qwen2
+    title: Qwen2 Technical Report
+    family: qwen
+    type: technical_report
+    status: ai_draft
+    priority: P0
+    note_path: models/qwen/qwen2.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2407.10671"
+      official: ""
+    topics: [dense_transformer, multilingual, post_training]
+
+  - slug: qwen2_5
+    title: Qwen2.5 Technical Report
+    family: qwen
+    type: technical_report
+    status: seeded
+    priority: P0
+    note_path: models/qwen/qwen2_5.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [instruction_following, coding, long_context]
+
+  - slug: qwen2_5_coder
+    title: Qwen2.5-Coder
+    family: qwen
+    type: model_report
+    status: seeded
+    priority: P1
+    note_path: models/qwen/qwen2_5_coder.md
+    source_status: to_verify
+    source:
+      kind: model_card
+      ref: ""
+      official: ""
+    topics: [code, agentic_workflows, post_training]
+
+  - slug: qwen2_5_vl
+    title: Qwen2.5-VL
+    family: qwen
+    type: model_report
+    status: seeded
+    priority: P1
+    note_path: models/qwen/qwen2_5_vl.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [vision_language, multimodal, document_understanding]
+
+  - slug: qwen2_audio
+    title: Qwen2-Audio
+    family: qwen
+    type: model_report
+    status: seeded
+    priority: P1
+    note_path: models/qwen/qwen2_audio.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [audio, speech_understanding, multimodal]
+
+  - slug: qwen3
+    title: Qwen3
+    family: qwen
+    type: technical_report
+    status: seeded
+    priority: P1
+    note_path: models/qwen/qwen3.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [general_llm, post_training, reasoning]
+
+  - slug: qwen3_embedding
+    title: Qwen3-Embedding
+    family: qwen
+    type: model_report
+    status: seeded
+    priority: P1
+    note_path: models/qwen/qwen3_embedding.md
+    source_status: to_verify
+    source:
+      kind: model_card
+      ref: ""
+      official: ""
+    topics: [embedding, retrieval, representation_learning]
+
+  - slug: deepseek_v2
+    title: DeepSeek-V2
+    family: deepseek
+    type: technical_report
+    status: seeded
+    priority: P0
+    note_path: models/deepseek/deepseek_v2.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [moe, mla, efficient_training]
+
+  - slug: deepseek_v3
+    title: DeepSeek-V3 Technical Report
+    family: deepseek
+    type: technical_report
+    status: ai_draft
+    priority: P0
+    note_path: models/deepseek/deepseek_v3.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2412.19437"
+      official: ""
+    topics: [moe, mla, multi_token_prediction]
+
+  - slug: deepseek_r1
+    title: DeepSeek-R1
+    family: deepseek
+    type: technical_report
+    status: ai_draft
+    priority: P0
+    note_path: models/deepseek/deepseek_r1.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2501.12948"
+      official: ""
+    topics: [reasoning, rl, distillation]
+
+  - slug: deepseek_coder
+    title: DeepSeek-Coder
+    family: deepseek
+    type: technical_report
+    status: seeded
+    priority: P1
+    note_path: models/deepseek/deepseek_coder.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [code, repo_level_training, fill_in_middle]
+
+  - slug: deepseek_math
+    title: DeepSeekMath
+    family: deepseek
+    type: technical_report
+    status: seeded
+    priority: P1
+    note_path: models/deepseek/deepseek_math.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2402.03300"
+      official: ""
+    topics: [math_reasoning, grpo, verifiable_rewards]
+
+  - slug: mistral_7b
+    title: Mistral 7B
+    family: mistral
+    type: technical_report
+    status: seeded
+    priority: P0
+    note_path: models/mistral/mistral_7b.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2310.06825"
+      official: ""
+    topics: [dense_transformer, efficiency, grouped_query_attention]
+
+  - slug: mixtral_8x7b
+    title: Mixtral of Experts
+    family: mistral
+    type: technical_report
+    status: seeded
+    priority: P0
+    note_path: models/mistral/mixtral_8x7b.md
+    source_status: verified
+    source:
+      kind: arxiv
+      ref: "2401.04088"
+      official: ""
+    topics: [moe, routing, inference_efficiency]
+
+  - slug: mixtral_8x22b
+    title: Mixtral 8x22B
+    family: mistral
+    type: model_report
+    status: seeded
+    priority: P1
+    note_path: models/mistral/mixtral_8x22b.md
+    source_status: to_verify
+    source:
+      kind: model_card
+      ref: ""
+      official: ""
+    topics: [moe, scaling, instruction_tuning]
+
+  - slug: gemma2
+    title: Gemma 2
+    family: gemma
+    type: technical_report
+    status: seeded
+    priority: P1
+    note_path: models/gemma/gemma2.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [dense_transformer, open_weights, efficiency]
+
+  - slug: gemma3
+    title: Gemma 3
+    family: gemma
+    type: model_report
+    status: seeded
+    priority: P1
+    note_path: models/gemma/gemma3.md
+    source_status: to_verify
+    source:
+      kind: model_card
+      ref: ""
+      official: ""
+    topics: [multimodal, long_context, instruction_following]
+
+  - slug: yi_34b
+    title: Yi-34B
+    family: yi
+    type: technical_report
+    status: seeded
+    priority: P2
+    note_path: models/yi/yi_34b.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [bilingual, dense_transformer, open_weights]
+
+  - slug: yi_1_5
+    title: Yi-1.5
+    family: yi
+    type: technical_report
+    status: seeded
+    priority: P2
+    note_path: models/yi/yi_1_5.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [multilingual, instruction_following, long_context]
+
+  - slug: internlm2_5
+    title: InternLM2.5
+    family: internlm
+    type: technical_report
+    status: seeded
+    priority: P2
+    note_path: models/internlm/internlm2_5.md
+    source_status: to_verify
+    source:
+      kind: technical_report
+      ref: ""
+      official: ""
+    topics: [agentic, tool_use, open_weights]
